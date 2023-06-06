@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+html {
+  // scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+.not-overflow {
+  overflow: hidden;
+}
+
+.main {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+

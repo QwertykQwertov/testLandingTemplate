@@ -1,0 +1,59 @@
+.header-wrapper {
+  padding: 40px 30px;
+}
+
+.header-div {
+  height: 72px;
+  @include flex(space-between)
+}
+
+.header-left-block {
+  @include flex(space-between, center);
+
+  width: 845px;
+}
+
+.header-block-menu {
+  @include flex(end, end);
+  gap: 4.9rem;
+
+}
+
+.nav-link {
+  text-decoration: none;
+
+  @include font(1.9rem, 3.2rem);
+
+  color: $color-main;
+}
+
+.nav-link-active {
+  color: $color-accent;
+}
+
+.header-right-block {
+  width: 159px;
+  height: 100%;
+
+  border: 1px solid #D4D4D4;
+  border-radius: 33px;
+
+  @include flex(space-evenly, center);
+}
+
+.cart-img-wrapper {
+  height: 56px;
+  width: 56px;
+
+  @include flex(center, center);
+
+  background: $color-main;
+  border-radius: 100px;
+}
+
+.cart-text {
+  margin-right: 25px;
+
+  @include font(1.7rem, 2.9rem);
+  color: $color-main;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Источник макета Telegram-канал [FIGMA | Макеты для верстки](https://t.me/+oXZSKMmXp6UyOGI6)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch sass/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QwertykQwertov/trueFigmaTemplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QwertykQwertov/trueFigmaTemplate/issues"
+  },
+  "homepage": "https://github.com/QwertykQwertov/trueFigmaTemplate#readme",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}

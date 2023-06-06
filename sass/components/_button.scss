@@ -1,0 +1,17 @@
+.button {
+
+}
+
+.home-button {
+  width: 219px;
+  height: 82px;
+  @include font(1.9rem, 3.2rem);
+  @include flex(end, center);
+
+  gap: 24px;
+
+  background: $color-yellow;
+  border: 1px solid $color-yellow;
+  border-radius: 16px;
+  color: $color-main;
+}
