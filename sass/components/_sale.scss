@@ -1,0 +1,17 @@
+.sale-content {
+  margin: 139px auto;
+  max-width: 1380px;
+  // width: 100%;
+  @include flex(space-between)
+}
+
+.sale-card{
+  width: 665px;
+  height: 378px;
+}
+.sale-card-left {
+  background-image: url('/img/banana.png');
+}
+.sale-card-right{
+  background-image: url('/img/apricot.png');
+}
